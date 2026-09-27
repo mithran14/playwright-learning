@@ -1,0 +1,20 @@
+var firstName="Mari Vignesh";
+console.log(firstName);
+console.log(typeof firstName);
+console.log("******************************");
+var CompanyName="TestLeaf";
+console.log(CompanyName);
+console.log(typeof CompanyName);
+console.log("******************************");
+var MobileNumber= 9500702882;
+console.log(MobileNumber);
+console.log(typeof MobileNumber);
+console.log("******************************");
+var isAutomation= true;
+console.log(isAutomation);
+console.log(typeof isAutomation);
+console.log("******************************");
+var hasPlaywright
+console.log(hasPlaywright);
+console.log(typeof hasPlaywright);
+console.log("******************************");
