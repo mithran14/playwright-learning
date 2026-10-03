@@ -16,7 +16,7 @@ a=10 */
 
 //const  => hoisting takes place but throws ReferenceError
 
-console.log(c)// ReferenceError: Cannot access 'c' before initialization
+//console.log(c) ReferenceError: Cannot access 'c' before initialization
 const c = 30
 
 //TDZ(temporal dead zone)- time period between the variable declaration and value assignment to it.

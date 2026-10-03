@@ -1,16 +1,13 @@
-function oddNumber(n) {
-    for (let i = 0; i < n; i++) {
-        if (i%2!=0) {
-           console.log(i);
+function printOddNumbers(limit) {
+    for (let i = 1; i < limit; i++) {
+        if (i % 2 !== 0) {
+            console.log(i);
         }
     }
 }
-oddNumber(20)
+printOddNumbers(20)
 console.log("********************************");
 
-
-
-let TestingType = "smoke"
 function switchSelected()
 {
 
@@ -30,22 +27,18 @@ function switchSelected()
     }
 }
 
-switchSelected(TestingType)
+switchSelected("smoke")
 
 
-let age =60
-function ageValidation(age) 
-{
-    if (age >60) {
-        console.log("senior citizen");
-    } 
-    else if(age >18){
+function ageValidation(age) {
+    if (age >= 60) {
+        console.log("Senior citizen");
+    } else if (age >= 18) {
         console.log("Adult");
-    }
-    else {
-        console.log("kids");
+    } else {
+        console.log("Kid");
     }
 }
-ageValidation(age)
+ageValidation(60)
 
 

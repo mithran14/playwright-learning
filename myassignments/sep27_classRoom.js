@@ -1,20 +1,18 @@
-function oddNumber(n) {
-    for (let i = 0; i < n; i++) {
-        if (i%2!=0) {
-           console.log(i);
+function printOddNumbers(limit) {
+    for (let i = 1; i < limit; i++) {
+        if (i % 2 !== 0) {
+            console.log(i);
         }
     }
 }
-oddNumber(20)
-console.log("********************************");
 
-
-
-function divisible(n) {
-    for (let j = 1; j < n; j++) {
-        if (j%5==0) {
-           console.log(j);
+function printNumbersDivisibleByFive(limit) {
+    for (let i = 1; i < limit; i++) {
+        if (i % 5 === 0) {
+            console.log(i);
         }
     }
 }
-divisible(50)
+
+printOddNumbers(20);
+printNumbersDivisibleByFive(50);
