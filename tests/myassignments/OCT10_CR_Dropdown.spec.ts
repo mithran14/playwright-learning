@@ -18,7 +18,7 @@ await page.locator('a>img').click()
 await page.waitForTimeout(5000)
 await page.locator("text=Leads").first().click()
 await page.waitForTimeout(4000)
-await page.locator("text=Create Lead").first().click();
+await page.locator("text=Create Lead").nth(0).first().click();
 await page.waitForTimeout(3000)
 
 
